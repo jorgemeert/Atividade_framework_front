@@ -1,0 +1,17 @@
+/* Ajustes que o Bootstrap não traz pronto */
+.hero {
+  height: 40vh;
+  min-height: 300px;
+  background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)),
+              url("https://picsum.photos/id/1015/1600/700") center / cover no-repeat;
+}
+
+/* Botão laranja personalizado */
+.btn-laranja {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #e9573f;
+  --bs-btn-border-color: #e9573f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d14a33;
+  --bs-btn-hover-border-color: #d14a33;
+}
